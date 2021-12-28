@@ -1,3 +1,5 @@
+![](https://ibb.co/tDnT738)
+
 # Purpose Of Project
 
 In early 2021 I wanted to learn how to use SQL in order to get myself ready for the job market. Having practiced a few SELECT statements, I realized that my understanding of databases, apart from SQL, was minimal. Instead of finding a database to practice SQL with, I opted to create my own so that I could go a bit further than studying SQL. I found the 2020 Stack Overflow Developer Survey mashed together in a large CSV file with minimal structure and an abundance of relationships --- this would be a great opportunity to create my first relational database from something that was unstructured and required *a lot* of data processing.
