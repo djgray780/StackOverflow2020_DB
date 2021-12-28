@@ -1,0 +1,88 @@
+---
+# Path to the input files containing the StackOverflow survey responses
+Original_CSV_Data_Path: C:\Users\den\code\stackoverflow2020\data\original_data\survey_results_public_2020.csv
+Original_Data_Path: C:\Users\den\code\stackoverflow2020\data\original_data\survey_results_public_2020.xls
+Path_R2P_Data: C:\Users\den\code\stackoverflow2020\data\survey_results_public_2020_ready2process.json
+Path_Lookup_Table: C:\Users\den\code\stackoverflow2020\data\multi_response_lookup_table.json
+# Dictionary containing the fields with multiple and single responses found from \
+# running find_multi_and_single_responses.py
+MultiResponse:
+  DevType:
+    - DevType
+  Ethnicity:
+    - Ethnicity
+  Gender:
+    - Gender
+  JobFactors:
+    - JobFactors
+  NEWJobHunt:
+    - NEWJobHunt
+  NEWJobHuntResearch:
+    - NEWJobHuntResearch
+  NEWPurchaseResearch:
+    - NEWPurchaseResearch
+  NEWSOSites:
+    - NEWSOSites
+  NEWStuck:
+    - NEWStuck
+  Sexuality:
+    - Sexuality
+  Database:
+    - DatabaseWorkedWith
+    - DatabaseDesireNextYear
+  CollabTools:
+    - NEWCollabToolsWorkedWith
+    - NEWCollabToolsDesireNextYear
+  MiscTech:
+    - MiscTechWorkedWith
+    - MiscTechDesireNextYear
+  Webframe:
+    - WebframeWorkedWith
+    - WebframeDesireNextYear
+  Language:
+    - LanguageWorkedWith
+    - LanguageDesireNextYear
+  Platform:
+    - PlatformWorkedWith
+    - PlatformDesireNextYear
+SingleResponse:
+    - Respondent
+    - MainBranch
+    - Hobbyist
+    - Age 
+    - Age1stCode
+    - CompFreq
+    - CompTotal
+    - ConvertedComp
+    - Country
+    - CurrencyDesc
+    - CurrencySymbol
+    - EdLevel
+    - Employment
+    - JobSat
+    - JobSeek
+    - NEWDevOps
+    - NEWDevOpsImpt
+    - NEWEdImpt 
+    - NEWLearn 
+    - NEWOffTopic 
+    - NEWOnboardGood
+    - NEWOtherComms
+    - NEWOvertime
+    - NEWPurpleLink
+    - OpSys
+    - OrgSize
+    - PurchaseWhat
+    - SOAccount
+    - SOComm
+    - SOPartFreq
+    - SOVisitFreq
+    - SurveyEase
+    - SurveyLength
+    - Trans
+    - UndergradMajor
+    - WelcomeChange
+    - WorkWeekHrs
+    - YearsCode
+    - YearsCodePro
+...
